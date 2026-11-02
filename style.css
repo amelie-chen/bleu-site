@@ -1,0 +1,14 @@
+:root{--bg:#050505;--ink:#f4f1f3;--muted:#a9a3a7;--pink:#FD94C2;--line:#2a2328}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 "Plus Jakarta Sans",system-ui,-apple-system,sans-serif}
+main{max-width:720px;margin:0 auto;padding:40px 16px 80px}
+a{color:var(--pink)}
+.logo{font-family:Caveat,cursive;font-size:56px;line-height:1;color:var(--pink);text-decoration:none;text-shadow:0 0 18px rgba(253,148,194,.55);padding:0 6px}
+h1{font-size:30px;margin:28px 0 4px}
+h2{font-size:20px;margin:36px 0 8px;color:var(--pink)}
+.muted{color:var(--muted)}
+ul{padding-left:22px}
+li{margin:4px 0}
+nav{display:flex;flex-wrap:wrap;gap:16px;margin-top:48px;padding-top:20px;border-top:1px solid var(--line);font-size:14px}
+.hero{font-family:Caveat,cursive;font-size:40px;margin:24px 0 8px}
+.card{border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:16px 0}
